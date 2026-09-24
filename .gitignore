@@ -3,3 +3,8 @@ __pycache__/
 *.pyc
 vendor/
 .tmp/
+# ASCII aliases from scripts/init-ascii-links.py
+00-core
+01-config
+03-templates
+04-examples

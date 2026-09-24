@@ -5,7 +5,7 @@ description: 沙箱存储或文件数接近上限时回收。先删很久以前�
 
 # 存储回收
 
-沙箱快照通常有体积/文件数上限。回收是为了继续对话，不是整理强迫症。
+沙箱快照通常有体积/文件数上限。回收是为了继续对话。
 
 **GitHub 地址只在 `skills/REGISTRY.md`。** 改造层只留 `REGISTRY id` 一行。删 vendor 后按登记表重拉。
 
@@ -55,12 +55,12 @@ description: 沙箱存储或文件数接近上限时回收。先删很久以前�
 
 改造层不在上游 GitHub。§4 的恢复前提是**本工具包自己的 git remote**。因此：
 
-- 工作区没有 `git remote`（当前 zip 交付默认如此）→ **拒绝删改造层**，改请用户外迁大文件或先自己 `git init` 并推到私有远端。这是硬闸门，不是「删了还能变回来」。
+- 工作区没有 `git remote`（当前 zip 交付默认如此）→ **拒绝删改造层**，改请用户外迁大文件或先自己 `git init` 并推到私有远端。
 - 有 remote 且用户同意：删完在 REGISTRY 底部「已卸载改造层」写下名字。
 
 ## 永远不删
 
-`skills/REGISTRY.md` · `skills/gc-storage/SKILL.md` · `skills/sync-upstream/SKILL.md` · `00-核心/` · `01-配置/` · `AGENTS.md` · `scripts/sync-upstream.py` · `scripts/sync-upstream.sh`
+`skills/REGISTRY.md` · `skills/gc-storage/SKILL.md` · `skills/sync-upstream/SKILL.md` · `00-核心/` · `01-配置/` · `AGENTS.md` · `LICENSE` · `scripts/sync-upstream.py` · `scripts/sync-upstream.sh` · `scripts/validate.py`
 
 ## 删完
 
